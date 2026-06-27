@@ -404,3 +404,19 @@ footer{
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
+.project-btn{
+    display:inline-block;
+    background:#00d9ff;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    margin:10px 8px;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.project-btn:hover{
+    background:#00b8d4;
+    transform:scale(1.05);
+}
